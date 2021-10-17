@@ -73,7 +73,7 @@ public class CuratorFrameworkFactory
 
     /**
      * Return a new builder that builds a CuratorFramework
-     *
+     * 通过建造者模式创建一个curatorClient
      * @return new builder
      */
     public static Builder builder()
